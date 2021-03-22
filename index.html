@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav-icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav-icon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <link rel=stylesheet href="style.css">
+    <title>Desafio E²C</title>
+</head>
+<body>
+    <div class="container">
+        <div id="link-home">
+            <header>
+                <div class="wrapper">
+                    <div class="logo">
+                        <h1>Monteiro Projects.</h1>
+                    </div>
+                    <nav class="navbar">
+                            <a href="#"><button class="btn">Home</button></a>
+                            <a href="#link-sobre"><button class="btn">Sobre</button></a>
+                            <a href="#link-formulario"><button class="btn">Formulário</button></a>
+                            <a href="#link-cards"><button class="btn">Cards</button></a>
+                    </nav>
+                </div>
+            </header>
+            
+            <div class="banner">
+                <div class="titulo">
+                    <h1>Desafio E²C 2021</h1>
+                </div>
+                <img src="images/bg-gif.gif" alt="">
+            </div>
+        </div>
+
+        <section class="sobre" id="link-sobre">
+            <div class="titulo-sobre">
+                <h1>Sobre</h1>
+            </div>
+            <div class="conteudo">
+                <p class="texto">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+                <br>
+                <p class="texto">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+                <br>
+                <p class="texto">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    
+                </p>
+            </div>
+        </section>
+
+        <section class="formulario" id="link-formulario">
+            <div class="form-content">
+                <h1>Formulário</h1>
+                <form class="campo">
+                    <fieldset><input type="text" placeholder="Nome" required></fieldset>
+                    <fieldset><input type="email" placeholder="Email" required></fieldset>
+                    <fieldset><input type="tel" placeholder="Telefone" required></fieldset>
+                    <fieldset><input type="text" placeholder="CEP" id="cep" maxlength="9"></fieldset>
+                    <fieldset><input type="text" placeholder="Rua" id="logradouro"><input type="text" placeholder="Bairro" id="bairro"></fieldset>
+                    <fieldset><input type="text" placeholder="Cidade" id="localidade"><input type="text" placeholder="Estado" id="uf"></fieldset>
+                    <textarea placeholder="Menssagem"></textarea>
+                    <fieldset class="botao"><button class="btn">Enviar</button></fieldset>
+                </form>
+            </div>
+        </section>
+
+        <section class="projetos" id="link-cards">
+            <div class="header-cards">
+                <h1>Cards</h1>
+            </div>
+            <div class="cada-projeto">
+                <div class="card">
+                    <div class="img-card">
+                        <img src="images/projeto1.png" alt="">
+                    </div>
+                    <div class="text-card">
+                        <h2>Controle De Estoque</h2>
+                        <p>Ferramenta javascript criada pra controle de estoque de produtos</p>
+                        <a href="https://github.com/VictorMont03/ControleDeEstoque/tree/master" target="_blank">
+                        <button class="btn">  
+                                Saiba mais
+                        </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="images/projeto2.png" alt="">
+                    </div>
+                    <div class="text-card">
+                        <h2>Gerador de Pdf's</h2>
+                        <p>Ferramenta criada no ano de 2021 utilizando puppeteer para automatização do navegador e geração automática de pdf's</p>
+                        <a href="https://github.com/VictorMont03/GeradorDePdfs" target="_blank">
+                        <button class="btn">
+                                Saiba mais
+                        </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="images/projeto3.jpg" alt="">
+                    </div>
+                    <div class="text-card">
+                        <h2>Parking Lot</h2>
+                        <p>Ferramenta criada como meio de controlar a estádia de veículos em um estacionamento</p>
+                        <a href="https://github.com/VictorMont03/App-Estacionamento/tree/master" target="_blank">
+                        <button class="btn">
+                                Saiba mais
+                        </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="link-rodape">
+            <div class="rodape">
+                <p>
+                    Copyright &copy; 2021, Victor Monteiro - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li class="li">
+                            <a href="https://www.instagram.com/victor9monteiro/" target="_blank>"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="li">
+                            <a href="https://github.com/VictorMont03" target="_blank"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li class="li">
+                            <a href="https://www.linkedin.com/in/victor-monteiro-0258591b0/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+        </footer>
+
+        <a href="#link-home" id="voltar-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+    <script type="text/javascript" src="src/main.js"></script>
+</body>
+</html>
